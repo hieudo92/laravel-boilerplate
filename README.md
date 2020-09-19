@@ -21,3 +21,15 @@ https://github.com/yajra/laravel-datatables
 
 Documentation:
 https://github.com/yajra/laravel-datatables-docs
+
+## Intervention Image
+https://github.com/Intervention/image
+
+## Laravel Debugbar
+https://github.com/barryvdh/laravel-debugbar
+
+## Jet stream
+https://jetstream.laravel.com/1.x/introduction.html
+
+## Socialite
+https://laravel.com/docs/8.x/socialite
