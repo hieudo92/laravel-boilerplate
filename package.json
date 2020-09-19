@@ -29,6 +29,7 @@
         "datatables.net": "^1.10.22",
         "datatables.net-dt": "^1.10.22",
         "icheck-bootstrap": "^3.0.1",
+        "moment": "^2.28.0",
         "overlayscrollbars": "^1.13.0"
     }
 }

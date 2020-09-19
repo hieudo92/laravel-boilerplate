@@ -174,11 +174,27 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\FortifyServiceProvider::class,
 
         /*
          * Laravel Datatable
          */
         Yajra\DataTables\DataTablesServiceProvider::class,
+
+        /*
+         * Intervention
+         */
+        Intervention\Image\ImageServiceProvider::class,
+
+        /*
+         * File Uploader
+         */
+        App\Providers\FileUploaderProvider::class,
+
+        /*
+         * Debugbar
+         */
+        Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     /*
@@ -235,6 +251,21 @@ return [
          * Laravel Datatable
          */
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+
+        /*
+         * Intervention
+         */
+        'Image' => Intervention\Image\Facades\Image::class,
+
+        /*
+         * File Uploader
+         */
+        'Uploader' => App\Facades\FileUploader::class,
+
+        /*
+         * Debugbar
+         */
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];
